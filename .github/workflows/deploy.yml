@@ -61,14 +61,7 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
-      - name: Create output directory
-        run: mkdir -p ./out
 
-      - name: Set permissions for output directory
-        run: chmod 755 ./out
-
-      - name: Archive output directory
-        run: tar -cvf output.tar ./out
       - name: Setup Pages
         uses: actions/configure-pages@v3
         with:
@@ -78,7 +71,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./out
+          path: ./next
 
   # Deployment job
   deploy:
