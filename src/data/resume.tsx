@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
   summary:
     "At the middle of 2024, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses.",
-  avatarUrl: "public/me.jpeg",
+  avatarUrl: "./me.jpeg",
   education: [
     {
       school: "ITMO",
