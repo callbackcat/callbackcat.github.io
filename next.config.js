@@ -4,10 +4,10 @@
 const nextConfig = {
   reactStrictMode: true,
   basePath: '/kirill',
-  assetPrefix: '/kirill/',
+  assetPrefix: '/callbackcat.github.io/kirill/',
   images: {
     loader: 'default',
-    path: '/kirill/',
+    path: '/callbackcat.github.io/kirill/',
   },
   distDir: 'dist',
 };
