@@ -17,7 +17,7 @@ export const DATA = {
       school: "ITMO",
       href: "https://itmo.ru",
       degree: "Bachelor of Software Engineering",
-      logoUrl: "/itmo.png",
+      logoUrl: "./itmo.png",
       start: "2020",
       end: "2024",
     },
@@ -66,11 +66,11 @@ export const DATA = {
   work: [
     {
       company: "Sitronics KT",
-      href: "https://atomic.finance",
+      href: "https://sitronics-kt.ru/eng/e",
       badges: [],
       location: "Remote",
       title: "Junior Software Engineer",
-      logoUrl: "/sitr.jpg",
+      logoUrl: "./sitr.jpg",
       start: "Feb 2022",
       end: "Jul 2024",
     },
@@ -98,7 +98,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "./icon.png",
     },
   ],
 } as const;
